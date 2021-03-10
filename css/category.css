@@ -1,0 +1,13 @@
+.main h1{
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #2d2d2d;;
+}
+.main h1 span{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #e1493e;
+}
+.card-group{
+    margin-top: 10px;
+}

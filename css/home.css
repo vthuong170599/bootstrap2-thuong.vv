@@ -1,0 +1,120 @@
+.article{
+    height: 390px;
+}
+.article-sub{
+    height: 100%;
+    position: relative;
+}
+.article-img{
+    background-image: url('../image/image.jpg');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-position-x: 50%;
+    background-position-y: center;
+    background-size: cover;
+    display: block;
+}
+.article-img .box-description{
+    position: absolute;
+    color: white;
+    overflow: hidden;
+    bottom: 10px;
+    left: 10px;
+}
+.item-viewed{
+    position: absolute;
+    right: -10px;
+    top: 0;
+    color: #fff;
+    padding: 6px 10px;
+    font-weight: 700;
+    /* z-index: 1; */
+}
+.article .article-help-1{
+    position: relative;
+    height: 50%;
+    padding: 0 10px 15px 0;
+}
+.article .article-help-2{
+    position: relative;
+    height: 50%;
+    padding: 15px 10px 0 0;
+}
+/* detail */
+.detail{
+    margin-top: 50px;
+    margin-left: 0;
+}
+.detail .detail-sub{
+    margin-bottom: 30px;
+}
+.detail span {
+    position: relative;
+    white-space: nowrap;
+    font-size: 30px;
+    color: #2d2d2d;
+    font-weight: 400;
+    text-transform: capitalize;
+    border-bottom: 2px solid #e1493e;
+}
+.detail h3{
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 700;
+}
+.detail p{
+    display: inline-block;
+    color: #777;
+    font-size: 14px;
+    margin: 0;
+}
+.info-footer.row.no-gutters {
+    padding: 5px 20px 15px;
+    margin-right: 0;
+    margin-left: 0;
+}
+.col-3.time-range {
+    color: #777;
+    text-align: right;
+    white-space: nowrap;
+}
+.col-9.site-name {
+    text-align: left;
+    color: #777;
+    padding-right: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card{
+    margin-right: 15px;
+}
+.card-item:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px #ddd;
+}
+.detail .view-all{
+    color: #fff;
+    background-color: #0a99d1;
+    border-color: #0a91c5;
+    transition: all .4s ease;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.content{
+    position: relative;
+    width: 100%;
+}
+.card-img-top{
+    position: relative;
+}
+.img-text{
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+}
+.card-img-top:hover{
+    opacity: 0.5;
+}

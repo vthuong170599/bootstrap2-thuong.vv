@@ -123,3 +123,20 @@
 .card-img-top:hover{
     opacity: 0.5;
 }
+.carousel{
+    position: relative;
+}
+.carousel-indicators{
+    position: absolute;
+    bottom: -13%;
+    right: -80%;
+}
+.carousel-indicators li{
+    background-color: #ffffff;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+.carousel-indicators .active{
+    background-color: #5b4282;
+}

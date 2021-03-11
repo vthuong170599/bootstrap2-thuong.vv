@@ -32,6 +32,11 @@
     font-weight: 700;
     /* z-index: 1; */
 }
+.item-viewed svg{
+    width: 25px;
+    height: 25px;
+    fill: currentcolor;
+}
 .article .article-help-1{
     position: relative;
     height: 50%;

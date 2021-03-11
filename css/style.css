@@ -61,9 +61,16 @@ body{
     padding: 0 0 !important;
     display: flex;
     top: 66px;
-    /*position: relative;*/
+    left: 0;
+    position: fixed;
     height: auto;
     background: #2a2f33;
+    overflow-x: hidden;
+    z-index: 1;
+    height: 100%;
+}
+.menu::-webkit-scrollbar{
+    display: none;
 }
 .menu .navbar{
     padding: 0 0;
@@ -92,6 +99,7 @@ body{
     background-color: #edeff0;
     position: relative;
     padding: 0;
+    margin-left: 17%;
 }
 .right-sidebar .main{
     padding: 100px 30px;
